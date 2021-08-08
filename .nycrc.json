@@ -1,0 +1,16 @@
+{
+    "all": false,
+    "branches": 80,
+    "exclude": [
+        "**/*.spec.ts"
+    ],
+    "excludeNodeModules": true,
+    "functions": 80,
+    "lines": 80,
+    "reportDir": ".coverage",
+    "statements": 80,
+    "reporter": [
+        "html",
+        "text"
+    ]
+}
