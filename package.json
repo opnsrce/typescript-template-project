@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "template project for typescript",
     "scripts": {
+        "prebuild": "rm -rf ./dist ./coverage",
         "build": "tsc",
         "lint": "prettier --write .",
         "pretest": "npm run build",
