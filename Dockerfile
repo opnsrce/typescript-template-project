@@ -1,4 +1,3 @@
-
 FROM node:lts
 
 RUN mkdir /app
