@@ -1,4 +1,6 @@
-const add = (firstNum: number, secondNum: number): number => {
+import { AppNumber } from "../types";
+
+const add = (firstNum: AppNumber, secondNum: AppNumber): number => {
     return firstNum + secondNum;
 };
 
