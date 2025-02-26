@@ -2,7 +2,7 @@
     "include": ["src/**/*.ts", "@types/**/*.ts"],
     "exclude": ["node_modules", "dist", "./types", "**/*.spec.ts"],
     "compilerOptions": {
-        "declaration": true,
+        "declaration": false,
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "inlineSourceMap": true,
