@@ -1,7 +1,6 @@
 {
     "name": "typescript-template-project",
     "version": "1.0.0",
-    "description": "template project for typescript",
     "scripts": {
         "prebuild": "rm -rf ./dist ./coverage",
         "build": "tsc",
